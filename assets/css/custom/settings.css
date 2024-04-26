@@ -1,0 +1,100 @@
+#settings{
+    vertical-align: top;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(197, 171, 171);
+    width: 720px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 253);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.164);
+}
+
+#settings .settings_name {
+    font: 20px/28px proxima_nova_bold, sans-serif;
+    display: block;
+}
+
+#settings .shipping {
+    border-top:5px solid #9e9ea080;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#settings label {
+    font-weight: bolder;
+    font: 16px/18px proxima_nova_normal, sans-serif;
+    color: rgb(128,115,197);
+    display: block;
+    margin-bottom: none;
+}
+
+#settings fieldset input[type="text"] {
+    margin-bottom: 14px;
+    display: block;
+    font: 14px/18px proxima_nova_normal, sans-serif;
+    color: gray;
+    background-color: #F3F8FD;
+    border-radius: 6px;
+    border: 1px solid #DAD3FF;
+    height: 30px;
+    outline: none;
+    padding-left: 13px;
+}
+
+#settings fieldset.name, #settings fieldset.address_additional {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#settings fieldset label{
+   margin-bottom: 1px;
+}
+
+#settings fieldset.name input[type="text"] {
+    width: 320px;
+}
+
+#settings fieldset.address input[type="text"] {
+    width: 650px;
+}
+
+
+#settings fieldset.address_additional input[type="text"] {
+    width: 210px;
+}
+
+
+#settings input[type="submit"] {
+    margin: 0 auto;
+    background-color: #9C89FF;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font: 16px/19px proxima_nova_bold, sans-serif;
+    height: 40px;
+    transition: 0.21s;
+    width: 100%;
+}
+.errors{
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(252, 197, 188);
+    box-shadow: 0px 4px 14px rgba(255, 0, 0, 0.164);
+}
+.success{
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(2, 129, 19);
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(165, 250, 193);
+    box-shadow: 0px 4px 14px rgba(0, 255, 128, 0.164);
+}
+
